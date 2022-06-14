@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    background-color: #0080ff;
+    border: 6px solid #2bff7c;
+    border-radius: 5px;
+  }
+  .game-board {
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    color: black;
+    border: 7px solid #0b0d0f;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-row {
+    border: 6px solid #739dc7;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+  }
+  .block {
+    background-color: rgb(219, 28, 28);
+    border: 6px solid green;
+    border-radius: 6px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20em;
+  }
